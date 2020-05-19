@@ -19,11 +19,11 @@ def literal_aoh
   # held in the constants
   array = [{:name=>"Don Gately", :occupation=>"Live-in Staff"},{:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},{:name=>"Pat Monteseian", :occupation=>"Staff"},{:name=>"Kate Gompert", :occupation=>"None"},{:name=>"Bruce Green", :occupation=>"Fan of Mildred"}
     ]
-  array[2][:name]
   
 end
 
 def aoh_lookup(aoh, row, key)
+  array[2][:name]
 end
 
 def aoh_update(aoh, row, key, new_value)
